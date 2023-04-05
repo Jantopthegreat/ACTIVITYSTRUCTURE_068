@@ -32,7 +32,7 @@ int main() {
 		cin.getline(mhs[i].alamat.desa, 20);
 		cout << "\tMasukan Kota : ";
 		cin.getline(mhs[i].alamat.kota, 20);
-}  
+	}
 
 	for (int i = 0; i < 3; i++) {
 		cout << "\n\nNIM : " << mhs[i].nim;
@@ -42,3 +42,5 @@ int main() {
 		cout << "\n\tDesa : " << mhs[i].alamat.desa;
 		cout << "\n\nKota : " << mhs[i].alamat.kota;
 	}
+
+}
